@@ -21,12 +21,12 @@ body {
 }
 
 a {
-  color: #47aeff;
+  color: #00cccc;
   text-decoration: none;
 }
 
 a:hover {
-  color: #47aeff;
+  color: #013c41;
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #47aeff;
+  background: #00cccc;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #07CCDB;
+  background: #013c41;
   color: #EDEBFE;
 }
 
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #47aeff;
+  border: 6px solid #00cccc;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .burger{
-  color: #47aeff;
+  color: #00cccc;
 }
 
 /*--------------------------------------------------------------
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   color: #fff;
-  background: #47aeff;
+  background: #00cccc;
 }
 
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #47aeff;
+  background-color: #00cccc;
 }
 
 /*--------------------------------------------------------------
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #47aeff;
+  color: #00cccc;
   letter-spacing: 1px;
 }
 
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a:hover {
-  color: #47aeff;
+  color: #00cccc;
 }
 
 
@@ -361,10 +361,10 @@ h1, h2, h3, h4, h5, h6 {
   border-right-width: 4px;
 }
 .draw-border:hover {
-  color: #47aeff;
+  color: #00cccc;
 }
 .draw-border:hover::before, .draw-border:hover::after {
-  border-color: #47aeff;
+  border-color: #00cccc;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
   height: 100%;
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.05rem;
 }
 .btn:focus {
-  outline: 2px dotted #47aeff;
+  outline: 2px dotted #00cccc;
 }
 
 
@@ -407,11 +407,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
   #hero p .typed{
-    color: #47aeff;
+    color: #00cccc;
   }
 
-  #hero .social-links a{
-    color: #47aeff;
+  #hero .social-links a,
+  #hero .draw-border{
+    color: #00cccc;
   }
   
 }
@@ -456,7 +457,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47aeff;
+  background: #00cccc;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -471,7 +472,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #47aeff;
+  color: #00cccc;
 }
 
 .about .content ul {
@@ -492,7 +493,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #47aeff;
+  color: #00cccc;
   line-height: 0;
 }
 
@@ -503,6 +504,10 @@ section {
 .cv-img{
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
+}
+
+.about-icon{
+  background: #00cccc;
 }
 
 /*--------------------------------------------------------------
@@ -523,7 +528,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #47aeff;
+  background: #00cccc;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -580,7 +585,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #47aeff;
+  background-color: #00cccc;
 }
 
 /*--------------------------------------------------------------
@@ -597,7 +602,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #47aeff;
+  border-left: 2px solid #00cccc;
   position: relative;
 }
 
@@ -607,7 +612,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #47aeff;
+  color: #00cccc;
   margin-bottom: 10px;
 }
 
@@ -641,7 +646,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #47aeff;
+  border: 2px solid #00cccc;
 }
 
 /*--------------------------------------------------------------
@@ -675,7 +680,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #47aeff;
+  color: #00cccc;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -821,11 +826,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #47aeff;
+  border: 1px solid #00cccc;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #47aeff;
+  background-color: #00cccc;
 }
 
 .portfolio-details .portfolio-info {
@@ -927,7 +932,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #00cccc;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -935,7 +940,7 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #00cccc;
 }
 
 .services .iconbox-orange i {
@@ -1062,11 +1067,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #47aeff;
+  border: 1px solid #00cccc;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #47aeff;
+  background-color: #00cccc;
 }
 
 @media (min-width: 992px) {
@@ -1088,11 +1093,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #47aeff;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #00cccc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1120,13 +1125,13 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #47aeff;
+  background: #013c41;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  color: #47aeff;
+  color: #00cccc;
   border-top-right-radius: 100px;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.10);
 
@@ -1194,7 +1199,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #47aeff;
+  background: #00cccc;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1203,7 +1208,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #07CCDB;
+  background: #013c41;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1228,7 +1233,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #ccccff;
+  background: #ccccee;
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -1258,7 +1263,7 @@ section {
 #footer .social-links a {
   font-size: 30px;
     display: inline-block;
-    background: rgb(71, 174, 255);
+    background: #00cccc;
     color: rgb(255, 255, 255);
     line-height: 1;
     padding: 13px 0px;
@@ -1271,7 +1276,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #07CCDB;
+  background: #013c41;
   color: #fff;
   text-decoration: none;
 }
@@ -1282,6 +1287,13 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+@media (max-width: 992px) {
+  #footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #000;
+  }
 }
 
 /* Timeline */
@@ -1297,7 +1309,7 @@ section {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #ccccff;
+  background: #00cccc;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -1316,7 +1328,7 @@ section {
 }
 
 .wrapper .row .section{
-  background-color: #ccccff;
+  background-color: #00cccc;
   width: calc(50% - 40px);
   padding: 20px;
   position: relative;
@@ -1335,7 +1347,7 @@ section {
   content: "";
   height: 15px;
   width: 15px;
-  background: #ccccff;
+  background: #00cccc;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -1352,7 +1364,7 @@ section {
 .row .section .icon,
 .center-line .scroll-icon{
   position: absolute;
-  background: #47aeff;
+  background: #00cccc;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -1361,7 +1373,7 @@ section {
   color: #fff;
   /* top: 13px; */
   font-size: 17px;
-  box-shadow: 0 0 0 4px #47aeff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  box-shadow: 0 0 0 4px #00cccc, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
 
 .center-line .scroll-icon{
