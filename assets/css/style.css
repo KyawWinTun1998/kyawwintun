@@ -497,6 +497,10 @@ section {
   line-height: 0;
 }
 
+.about .content p{
+  text-align: justify;
+}
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -652,6 +656,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -803,6 +808,78 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.testimonial-section{
+  padding: 80px 0;
+  /* min-height: 90vh; */
+}
+
+/* .testimonial-section{
+  box-shadow: 0 0 0 4px #00cccc, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+} */
+
+.testi-img .img-box{
+  max-width: 350px;
+  margin:auto;
+  text-align: center;
+  position: relative;
+}
+
+.testi-img img{
+  width: 443px;
+  height: 250px;
+  border-radius: 10px;
+}
+.testimonial-section .carousel-inner{
+  margin-bottom: 20px;
+}
+.testimonial-section .carousel-control-prev{
+  margin-right: 10px;
+}
+.testimonial-section .carousel-control-next, 
+.testimonial-section .carousel-control-prev{
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: #00cccc;   
+  display: inline-flex;
+  border-radius: 50%;
+}
+.testimonial-section .carousel-control-prev img,
+.testimonial-section .carousel-control-next img{
+  width: 15px;
+}
+.testi-item h3,
+.testi-item p{
+  font-size: 18px;
+}
+.testi-item h3{
+  text-transform: capitalize;
+}
+
+/* Responsive */
+@media(max-width:991px){
+  .testi-img .img-box{
+      max-width: 300px;
+  }
+  .testi-img .circle{
+      height: 300px;
+      width: 300px;
+  }
+  .testi-img .img-box-inner{
+      border-radius: 0 0 150px 150px;
+  }
+  .testi-img .img-box-inner img{
+      max-width: 230px;
+  }
+}
+@media(max-width:767px){
+  .testi-img{
+      margin-bottom: 25px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1334,6 +1411,10 @@ section {
   position: relative;
 }
 
+.wrapper .row .section p{
+  text-align: justify;
+}
+
 .trborder{
   box-shadow: 13px 12px 17px 3px rgb(0 72 29 / 50%);
 }
@@ -1449,4 +1530,123 @@ section {
     margin-bottom: 10px;
   }
 }
+
+.hire-bg{
+  background-color: #EDEBFE;
+  height: 500px;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.10);
+  /* width: 300px; */
+}
+
+.contact-me{
+  margin: 200px;
+}
+
+.contact-me h4{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #45505b;
+}
+
+.contact-me p{
+  font-size: 20px;
+  color: #45505b;
+}
+
+.contact-me a{
+
+  background: #00cccc;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.4s;
+
+
+}
+
+.contact-me a:hover{
+
+  background: #013c41;
+  transition: all 0.4s;
+
+}
+
+.contact-img img{
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* setting button */
+.config {
+  position: fixed;
+  top: 50%;
+  right: -282px;
+  padding: 5px;
+  background-color: transparent;
+  transition: right .3s ease;
+  z-index: 100;
+}
+
+.config.active {
+  right: 0;
+}
+
+.template-config {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0 !important;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 12px 0 0 12px;
+  box-shadow: -3px 2px 9px rgba(50, 50, 50, 0.2);
+}
+
+.template-config .btn-fab {
+  background-color: transparent !important;
+  color: #52565c !important;
+  margin: 5px;
+  padding: 7px;
+  line-height: 10px;
+}
+
+.template-config .btn-fab:hover{
+  color: #00cccc !important;
+}
+
+.color-bar {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.color-item {
+  display: inline-block;
+  margin: 5px 3px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.color-item.selected {
+  background-position: center center;
+  background-size: 50% 50%;
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e"); */
+  background-repeat: no-repeat;
+}
+
+.set-menu {
+  position: relative;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 10px 15px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.2);
+}
+
 
