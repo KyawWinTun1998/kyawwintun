@@ -25,6 +25,8 @@
   <link rel="stylesheet" href="assets/vendor/Fontawesome/css/all.min.css">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/slick/slick.css">
+  <link rel="stylesheet" href="assets/vendor/slick/slick-theme.css">
   
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -315,6 +317,84 @@
     </section>
     <!-- End Resume Section-->
 
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>Portfolio</h2>
+      </div>
+
+      <div class="row">
+        <div class="portfolio-slide">
+          <div class="item">
+            <div class="image">
+                <img src="assets/img/portfolio/work-3.jpg" alt="">
+                <div class="featured-button button">
+                    <a href="https://movieworld.kyawwintun.me/" target="_blink">View Demo</a>
+                </div>
+            </div>
+            <div class="text-content">
+                <h4 class="px-3">Movie World</h4>
+                <span class="px-3">Online Streaming Service that offers a widely variety of TV shows and movies. Have a member system.</span>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="image">
+                <img src="assets/img/portfolio/work-2.jpg" alt="">
+                <div class="featured-button button">
+                    <a href="https://shopules.kyawwintun.me/" target="_blink">View Demo</a>
+                </div>
+            </div>
+            <div class="text-content">
+                <h4 class="px-3">Shoplues</h4>
+                <span class="px-3">Online Shopping Website, include add to cart system and can order products and with admin management.</span>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="image">
+                <img src="assets/img/portfolio/work-3.jpg" alt="">
+                <div class="featured-button button">
+                    <a href="https://foodies-project.netlify.app/" target="_blink">View Demo</a>
+                </div>
+            </div>
+            <div class="text-content">
+                <h4 class="px-3">Tasty Food</h4>
+                <span class="px-3">Food Website Design Using Bootstrap. Simple And Beauty Single Page Website.</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="image">
+                <img src="assets/img/portfolio/work-4.jpg" alt="">
+                <div class="featured-button button">
+                    <a href="#projects">View Demo</a>
+                </div>
+            </div>
+            <div class="text-content">
+                <h4 class="px-3">Lorem ipsum dolor</h4>
+                <span class="px-3">Proin et sapien</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="image">
+                <img src="assets/img/portfolio/work-5.jpg" alt="">
+                <div class="featured-button button">
+                    <a href="#projects">View Demo</a>
+                </div>
+            </div>
+            <div class="text-content">
+                <h4 class="px-3">Lorem ipsum dolor</h4>
+                <span class="px-3">Proin et sapien</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Portfolio Section -->
   
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -383,6 +463,7 @@
     </section>
     <!-- End Contact Section -->
 
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -419,10 +500,61 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/slick/jquery-3.2.1.min.js"></script>
+  <script src="assets/vendor/slick/jquery-migrate.min.js"></script>
+  <script src="assets/vendor/slick/slick.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/custom.js"></script>
+  
+  <!-- Portfolio JQuery -->
+  <script>
+     $(document).ready(function(){
+      $('.portfolio-slide').slick({
+        // dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              autoplay: true,
+              autoplaySpeed: 2000,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000,
+            }
+          }
+        ]
+      });
+     });
+  </script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/custom.js"></script>
 
 </body>
 

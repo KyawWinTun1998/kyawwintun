@@ -4,3 +4,11 @@ const myCarousel = document.getElementById('myCarousel')
     document.querySelector(".testi-img img").src = activeItem.getAttribute("data-img");
     document.querySelector(".testi-img .circle").style.backgroundColor = activeItem.getAttribute("data-color");
   })
+
+  $(function() {
+    var $grid = $('.gridder').isotope({
+      itemSelector: '.grid-item',
+      percentPosition: true
+    });
+
+  });
